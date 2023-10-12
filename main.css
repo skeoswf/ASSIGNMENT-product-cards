@@ -1,0 +1,14 @@
+#all {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto auto auto;
+  width: 800px;
+  height: 800px;
+}
+
+.product {
+  margin: 10px;
+  width: 225px;
+  height: 375px;
+  border: red 5px solid;
+}
