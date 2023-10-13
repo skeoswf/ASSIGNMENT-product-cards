@@ -43,7 +43,7 @@ img {
 .specifications, .pricing {
   margin-top: 15px;
   padding-left: 10px;
-  line-height: 0px;
+  line-height: 1px;
   text-align: left;
   font-size: smaller;
 }
@@ -54,9 +54,13 @@ img {
 
 .specifications footer {
   font-size: 10px;
-  margin-left: -10px;
+  margin-left: -9px;
 }
 
 .pricing {
   margin-top: 20px;
+}
+
+.specifications header, .pricing header {
+  font-size: larger;
 }
